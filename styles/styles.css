@@ -1,0 +1,1291 @@
+/* Link Tag Styles */
+a.footerLink {
+	color: white !important;
+}
+
+a.contactLink {
+	color: #c00000 !important;
+	font-weight: 500;
+	/*text-decoration: underline;*/
+}
+
+
+/* Font Styles */
+.allFont {
+	font-family: "Roboto Slab", serif;
+	font-weight: 600;
+	font-size: 35px;
+	text-shadow: 3px 3px #c3c3c3;
+}
+
+
+/* Margin Styles */
+#services {
+	padding-top: 80px;
+}
+
+#trustedBy {
+	padding-top: 75px;
+	padding-bottom: 5px;
+}
+
+.logosRow {
+	padding-bottom: 60px;
+}
+
+#chooseUs {
+	padding-top: 70px;
+	padding-bottom: 10px;
+}
+
+
+/* Navbar Styles */
+#logo-img img {
+	width: 110px;
+	height: 80px
+}
+
+.nav-item a:hover {
+	border: 2px solid white ! important;
+}
+
+.nav-item a {
+	border-radius: 10px;
+}
+
+@media (max-width: 540.2px) {
+	.navbar-text {
+		display: none;
+	}
+}
+
+@media (max-width: 450px) {
+	#logo-img img {
+		width: 120px;
+		height: 71px;
+	}
+
+	.navbar-text {
+		display: none;
+	}
+}
+
+@media (max-width: 325px) {
+	#logo-img img {
+		width: 100px;
+		height: 59px;
+	}
+}
+
+
+/* Video Styles */
+.remove-video-margin {
+	margin: 0px;
+	padding: 0px;
+	margin-top: 50px;
+}
+
+.vid-background {
+	position: relative;
+	z-index: 2;
+}
+
+video {
+	height: 94.8vh !important;
+	width: 100% !important;
+	object-fit: fill;
+}
+
+.video-overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	opacity: 0.7;
+	background-color: #2d4457;
+	margin: 0px;
+	padding: 0px;
+}
+
+.vid-head {
+	font-family: "Roboto Slab", serif;
+	text-shadow: 3px 3px #444444;
+	color: white;
+	letter-spacing: 1px;
+}
+
+.vid-tagline {
+	font-family: "Oxygen", serif;
+	text-shadow: 2px 2px #444444;
+	color: white;
+	font-size: 21px;
+	padding-bottom: 7px;
+	letter-spacing: 1px;
+}
+
+.video-content {
+	position: absolute;
+	z-index: 3;
+	top: 40%;
+	/*left: 36%;*/
+	text-align: center;
+}
+
+.start {
+	background-color: #850101;
+	color: white;
+	font-size: 18px;
+	font-weight: 600;
+	height: 60px;
+	width: 150px;
+	padding-top: 15px;
+	border-radius: 20px;
+	border: 1px solid white;
+	box-shadow: 3px 3px #4D5050;
+
+}
+
+.start:hover {
+	background-color: #2c2a2a;
+}
+
+/* Fixed Call Block Styles */
+.call-div {
+	position: fixed;
+	top: 500px;
+	left: 0;
+	width: 170px;
+	height: 130px;
+	border-width: 1px 1px 1px 0px;
+	border-style: solid;
+	border-color: white;
+	z-index: 1;
+	background-image: linear-gradient(#3f0d12, #a71d31);
+	text-shadow: 1px 1px #8b0000;
+	color: white;
+	font-weight: 500;
+	font-size: 17px;
+	padding-top: 25px;
+}
+
+.call-div a {
+	color: white;
+	text-shadow: none;
+}
+
+@media (max-width: 450px) {
+	.call-div {
+		top: 500px;
+		left: 0;
+		width: 141px;
+		height: 108px;
+		padding-top: 20px;
+		font-size: 14px;
+	}
+}
+
+/* Disclaimer Styles */
+.disclaimerDiv {
+	background-color: #3f0d12;
+	background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+	text-shadow: 3px 3px #8b0000;
+}
+
+@media (max-width: 450px) {
+	.disclaimerDiv h2 {
+		font-size: 26px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.disclaimerDiv h4 {
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 400px) {
+	.disclaimerDiv h2 {
+		font-size: 24px;
+	}
+
+	.disclaimerDiv h4 {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 360px) {
+	.disclaimerDiv h2 {
+		font-size: 20px;
+	}
+
+	.disclaimerDiv h4 {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 300px) {
+	.disclaimerDiv h2 {
+		font-size: 17px;
+	}
+
+	.disclaimerDiv h4 {
+		font-size: 13px;
+	}
+}
+
+/* Services Styles */
+.stroke {
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+	color: grey;
+}
+
+.serviceImg {
+	width: 85px;
+	height: 81px;
+}
+
+.centerItems {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.colHeight {
+	height: 220px;
+}
+
+.containerWidth {
+	width: 380px;
+}
+
+.rowHeight {
+	height: 400px;
+}
+
+.bgColor {
+	background-color: #e3e7e8;
+	/* background-color: #ccdfe8; */
+}
+
+.bgColor2 {
+	background-color: #f8f8ff;
+}
+
+.colBorder {
+	border-width: 2px;
+	border-style: solid;
+	border-color: #b3b3b3;
+	box-shadow: 5px 5px #e3e3e3;
+}
+
+.colMove:hover {
+	border-width: 4px;
+	border-style: solid;
+	border-color: #737373;
+	box-shadow: 9px 9px #e3e3e3;
+}
+
+#services a {
+	text-decoration: none;
+	/*-webkit-text-stroke-color: black;
+	-webkit-text-stroke-width: 2px;*/
+}
+
+@media (max-width: 768.2px) and (min-width: 350px) {
+	.colHeight {
+		height: 170px;
+	}
+	.containerWidth {
+		width: 310px;
+	}
+	.rowHeight {
+		height: 320px;
+	}
+	.service-title {
+		font-size: 22px;
+	}
+}
+
+@media (max-width: 349px) {
+	.colHeight {
+		height: 140px;
+	}
+	.containerWidth {
+		width: 260px;
+	}
+	.rowHeight {
+		height: 280px;
+	}
+	.service-title {
+		font-size: 17px;
+	}
+}
+
+@media (max-width: 300px) {
+	.colHeight {
+		height: 120px;
+	}
+	.containerWidth {
+		width: 220px;
+	}
+	.rowHeight {
+		height: 240px;
+	}
+	.service-title {
+		font-size: 13px;
+	}
+	.title-padding {
+		padding-left: 14px !important;
+	}
+}
+
+/* Trusted By Styles */
+.trusted-by {
+	background-color: #dceef3;
+	/* background-color: #d0e5fb; */
+}
+
+.uhaul {
+	width: 190px;
+	height: 190px;
+}
+
+.aaa {
+	width: 200px;
+	height: 120px;
+}
+
+.agero {
+	width: 220px;
+	height: 85px;
+}
+
+.kb_home {
+	width: 100px;
+	height: 100px;
+}
+
+.google {
+	width: 273px;
+	height: 120px;
+}
+
+@media (max-width: 768.2px) {
+	.uhaul {
+		width: 150px;
+		height: 190px;
+	}
+	.aaa {
+		width: 160px;
+		height: 120px;
+	}
+	.agero {
+		width: 180px;
+		height: 85px;
+	}
+	.kb_home {
+		width: 90px;
+		height: 100px;
+	}
+}
+
+@media (max-width: 1024.2px) and (min-width: 768.2px) {
+	.logosRow {
+		padding-left: 70px;
+	}
+}
+
+@media (max-width: 580px) {
+	.logosRow {
+		padding-left: 40px;
+	}
+	/*	.logosRow2 {
+		padding-left: 60px;
+	}*/
+	.quality {
+		margin-bottom: 40px !important;
+	}
+	.trust {
+		margin-bottom: 40px !important;
+	}
+	.experience {
+		margin-bottom: 40px !important;
+	}
+	.addr {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+@media (max-width: 576.2px) {
+	.logosRow {
+		padding-left: 0px;
+	}
+	.logosRow>div {
+		text-align: center;
+	}
+	.aaa {
+		margin-bottom: 40px;
+	}
+	.agero {
+		margin-bottom: 40px;
+	}
+	.kb_home {
+		margin-bottom: 40px;
+	}
+	.logosRow2>div {
+		text-align: center;
+	}
+}
+
+@media (max-width: 450px) {
+	.video {
+		height: 66vh !important;
+	}
+	.video-content {
+		top: 35%;
+	}
+	.uhaul {
+		width: 130px;
+		height: 130px;
+	}
+	.aaa {
+		width: 141px;
+		height: 79px;
+	}
+	.agero {
+		width: 146px;
+		height: 56px;
+	}
+	.kb_home {
+		width: 80px;
+		height: 80px;
+	}
+}
+
+@media (max-width: 400px) {
+	/*	.logosRow2 {
+		padding-left: 20px;
+	}*/
+	.allFont {
+		font-size: 30px;
+	}
+}
+
+/* Underline (Our Services + Trusted By) Styles */
+.underline1 {
+	width: 100px;
+	height: 2px;
+}
+
+/* Underline (Why Choose Us) Styles */
+.underline2 {
+	width: 140px;
+	height: 2px;
+}
+
+/* Reviews Styles */
+.carousel-background {
+	color: white;
+}
+
+.review-content {
+	padding: 100px 0 120px 0;
+}
+
+.review-text {
+	font-size: 20px;
+	margin: 0 350px;
+}
+
+@media (max-width: 1200px) {
+	.review-text {
+		margin: 0 150px;
+		padding-right: 0 !important;
+		padding-left: 0 !important;
+	}
+}
+
+@media (max-width: 700px) {
+	.review-text {
+		margin: 0 50px !important;
+		padding-right: 0 !important;
+		padding-left: 0 !important;
+	}
+}
+
+/* Footer Styles */
+.underline_footer_1 {
+	width: 90px;
+	height: 2px;
+}
+
+.underline_footer_2 {
+	width: 75px;
+	height: 2px;
+}
+
+.underline_footer_3 {
+	width: 50px;
+	height: 2px;
+}
+
+.underline_footer_4 {
+	width: 65px;
+	height: 2px;
+}
+
+.addr-line {
+	padding-left: 38px;
+}
+
+.goTo {
+	padding-left: 80px;
+}
+
+@media (max-width: 1340px) {
+	.footer-map {
+		width: 247px;
+		height: 190px;
+	}
+}
+
+@media (max-width: 990.98px) {
+	.footer-map {
+		width: 220px;
+		height: 160px;
+	}
+}
+
+@media (min-width: 767.98px) and (max-width: 860px) {
+	.footer-map {
+		width: 170px;
+		height: 150px;
+	}
+	.goTo {
+		padding-left: 60px;
+	}
+}
+
+@media (max-width: 450px) {
+	.footer-map {
+		width: 250px;
+		height: 150px;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.goTo {
+		padding-left: 0;
+	}
+}
+
+
+/* CONTACT US PAGE */
+
+/* CONTACT US HEADING Styles */
+.contact-head {
+	margin-top: 80px;
+	min-height: 50vh;
+	background-image: url("../Images/contact-us.jpg") ;
+	background-position: 50% 1%;
+	position: relative;
+}
+
+.contact-head:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(45, 68, 87, 0.65);
+}
+
+.contact-head-content {
+	position: absolute;
+	left: 41%;
+	top: 45%;
+}
+
+.contact-heading {
+	font-size: 42px;
+}
+
+.form-container {
+	margin-top: 100px;
+	padding: 0px;
+}
+
+@media (max-width: 750.8px) {
+	.form-container {
+		margin-top: 80px;
+		padding: 0px;
+	}
+}
+
+/* INPUT Styles */
+.inStyle {
+	width: 90%;
+	height: 35px;
+	border: 1px solid white;
+	border-radius: 5px;
+	box-shadow: 2px 2px #202020;
+	padding: 0 5px;
+}
+
+.comInStyle {
+	width: 95%;
+	border: 1px solid white;
+	border-radius: 5px;
+	box-shadow: 2px 2px #202020;
+	padding: 5px 0 0 5px;
+}
+
+.buttonStyle {
+	width: 20%;
+	padding: 8px 0;
+	border: 1px solid black;
+	border-radius: 5px;
+	box-shadow: 2px 2px #202020;
+	background-color: #c3c3c3;
+	font-weight: 500;
+}
+
+.buttonStyle:hover {
+	color: #c3c3c3;
+	background-color: #292b2c;
+	cursor: pointer;
+}
+
+@media (max-width: 1024.2px) {
+	.contact-head-content {
+		left: 36%;
+		top: 45%;
+	}
+}
+
+@media (max-width: 768.2px) {
+	.contact-head-content {
+		left: 33%;
+		top: 45%;
+	}
+}
+
+@media (max-width: 575.8px) {
+	.contact-field {
+		margin-top: 20px;
+	}
+	.comInStyle {
+		width: 90%;
+	}
+	.get-in-touch {
+		padding-left: 20px;
+	}
+}
+
+@media (max-width: 550px) {
+	.contact-head-content {
+		left: 25%;
+		top: 45%;
+	}
+	.contact-head {
+		margin-top: 50px;
+	}
+}
+
+@media (max-width: 450px) {
+	.contact-head-content {
+		left: 18%;
+		top: 45%;
+	}
+}
+
+@media (max-width: 400px) {
+	.contact-head-content {
+		left: 19%;
+		top: 45%;
+	}
+	.contact-heading {
+		font-size: 36px !important;
+	}
+	.buttonStyle {
+		width: 35%;
+	}
+}
+
+@media (max-width: 350px) {
+	.contact-heading {
+		font-size: 30px !important;
+	}
+}
+
+@media (max-width: 300px) {
+	.contact-head-content {
+		left: 16%;
+		top: 45%;
+	}
+	.contact-heading {
+		font-size: 30px !important;
+	}
+}
+
+/* CONTACT US TILES Styles */
+.tile {
+	height: 180px;
+	width: 80%;
+	margin: 5px 0;
+	border-radius: 30px;
+	background-color: #f2f2f2;
+	border: 2px solid #c5c2c2;
+	-webkit-box-shadow: 0 0 4px #c5c2c2;
+	box-shadow: 0 0 4px #c5c2c2;
+}
+
+.titlePadding {
+	padding-top: 27px;
+	padding-bottom: 10px;
+}
+
+.titlePadding2 {
+	padding-top: 20px;
+	padding-bottom: 6px;
+}
+
+.tile:hover {
+	border: 4px solid #c5c2c2;
+	-webkit-box-shadow: 0 0 8px #c5c2c2;
+	box-shadow: 0px 0px 8px #c5c2c2;
+}
+
+.tile a {
+	color: black !important;
+}
+
+@media (min-width: 992px) {
+	#address-tile {
+		margin-right: 70px;
+	}
+	#phone-tile {
+		margin-left: 70px;
+	}
+
+}
+
+@media (max-width: 300px) {
+	.tile {
+		width: 100%;
+	}
+	.get-in-touch {
+		font-size: 36px;
+	}
+}
+
+/*SERVICE PAGE Styles*/
+.service-head {
+	margin-top: 80px;
+	min-height: 50vh;
+	background-image: url("../Images/lockouts.jpg");
+	position: relative;
+}
+
+.service-head:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(45, 68, 87, 0.65);
+}
+
+.desc_column {
+	width: 80%;
+}
+
+.desc_headings {
+	color: #0054a6;
+}
+
+.keyword {
+	color: #c00000;
+}
+
+/* Lockouts Styles */
+.lockouts-head {
+	margin-top: 80px;
+	min-height: 50vh;
+	background-image: url("../Images/lockouts.jpg");
+	position: relative;
+}
+
+.lockouts-head:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(45, 68, 87, 0.7);
+}
+
+.lockouts-head-content {
+	position: absolute;
+	left: 42%;
+	top: 45%;
+}
+
+/* Rekey/Masterkey Styles */
+.rekey-head-content {
+	position: absolute;
+	left: 34%;
+	top: 45%;
+}
+
+/* Broken Key Removal Styles */
+.brokenkey-head-content {
+	position: absolute;
+	left: 34%;
+	top: 45%;
+}
+
+/* Key Duplication Styles */
+.keydup-head-content {
+	position: absolute;
+	left: 37%;
+	top: 45%;
+}
+
+/* Locks Change and Repair Styles */
+.lockChange-head-content {
+	position: absolute;
+	left: 40%;
+	top: 45%;
+}
+
+/* Lock Replacement Styles */
+.lockReplacement-head-content {
+	position: absolute;
+	left: 27%;
+	top: 45%;
+}
+
+/* Key Programming Styles */
+.keyProgramming-head-content {
+	position: absolute;
+	left: 27%;
+	top: 45%;
+}
+
+/* Laser Cutting Styles */
+.laserCutting-head-content {
+	position: absolute;
+	left: 22%;
+	top: 45%;
+}
+
+@media (max-height: 600px) {
+	.service-head {
+		margin-top: 60px;
+	}
+}
+
+@media(max-width: 1100px) {
+	.lockouts-head-content {
+		position: absolute;
+		left: 39%;
+		top: 45%;
+	}
+	.rekey-head-content {
+		position: absolute;
+		left: 28%;
+		top: 45%;
+	}
+	.brokenkey-head-content {
+		position: absolute;
+		left: 24%;
+		top: 45%;
+	}
+	.keydup-head-content {
+		position: absolute;
+		left: 30%;
+		top: 45%;
+	}
+	.lockChange-head-content {
+		position: absolute;
+		left: 33%;
+		top: 45%;
+	}
+	.lockReplacement-head-content {
+		position: absolute;
+		left: 18%;
+		top: 45%;
+	}
+	.keyProgramming-head-content {
+		position: absolute;
+		left: 17%;
+		top: 45%;
+	}
+	.laserCutting-head-content {
+		position: absolute;
+		left: 12%;
+		top: 45%;
+	}
+	/*	.laser-heading {
+		font-size: 32px;
+	}*/
+}
+
+@media(max-width: 770px) {
+	.right-col {
+		justify-content: start !important;
+		margin-left: 22px !important;
+	}
+	.lockouts-head-content {
+		position: absolute;
+		left: 35%;
+		top: 45%;
+	}
+	.rekey-head-content {
+		position: absolute;
+		left: 21%;
+		top: 45%;
+	}
+	.brokenkey-head-content {
+		position: absolute;
+		left: 16%;
+		top: 45%;
+	}
+	.keydup-head-content {
+		position: absolute;
+		left: 25%;
+		top: 45%;
+	}
+	.lockChange-head-content {
+		position: absolute;
+		left: 28%;
+		top: 45%;
+	}
+	.lockReplacement-head-content {
+		position: absolute;
+		left: 6%;
+		top: 45%;
+	}
+	.keyProgramming-head-content {
+		position: absolute;
+		left: 7%;
+		top: 45%;
+	}
+	.laserCutting-head-content {
+		position: absolute;
+		left: 10%;
+		top: 45%;
+	}
+	.laser-heading {
+		font-size: 32px;
+	}
+}
+
+@media(max-width: 550px) {
+	.lockouts-head-content {
+		position: absolute;
+		left: 30%;
+		top: 45%;
+	}
+	.rekey-head-content {
+		position: absolute;
+		left: 21%;
+		top: 45%;
+	}
+	.brokenkey-head-content {
+		position: absolute;
+		left: 16%;
+		top: 45%;
+	}
+	.keydup-head-content {
+		position: absolute;
+		left: 25%;
+		top: 45%;
+	}
+	.lockChange-head-content {
+		position: absolute;
+		left: 28%;
+		top: 45%;
+	}
+	.lockChange-heading {
+		font-size: 30px;
+	}
+	.lockReplacement-head-content {
+		position: absolute;
+		left: 6%;
+		top: 45%;
+	}
+	.keyProgramming-head-content {
+		position: absolute;
+		left: 7%;
+		top: 45%;
+	}
+	.laserCutting-head-content {
+		position: absolute;
+		left: 10%;
+		top: 45%;
+	}
+	.laser-heading {
+		font-size: 32px;
+	}
+}
+
+@media(max-width: 440px) {
+	.lockouts-head-content {
+		position: absolute;
+		left: 21%;
+		top: 45%;
+	}
+	.rekey-head-content {
+		position: absolute;
+		left: 10%;
+		top: 45%;
+	}
+	.rekey-heading {
+		font-size: 30px;
+	}
+	.brokenkey-head-content {
+		position: absolute;
+		left: 6%;
+		top: 45%;
+	}
+	.brokenkey-heading {
+		font-size: 30px;
+	}
+	.keydup-head-content {
+		position: absolute;
+		left: 16%;
+		top: 45%;
+	}
+	.keydup-heading {
+		font-size: 30px;
+	}
+	.lockChange-head-content {
+		position: absolute;
+		left: 22%;
+		top: 45%;
+	}
+	.lockChange-heading {
+		font-size: 28px;
+	}
+	.lockReplacement-head-content {
+		position: absolute;
+		left: 0%;
+		top: 45%;
+	}
+	.lockReplacement-heading {
+		font-size: 32px;
+		text-align: center;
+	}
+	.keyProgramming-head-content {
+		position: absolute;
+		left: 0%;
+		top: 43%;
+	}
+	.keyProgram-heading {
+		font-size: 28px;
+		text-align: center;
+	}
+	.laserCutting-head-content {
+		position: absolute;
+		left: 0%;
+		top: 43%;
+	}
+	.laser-heading {
+		font-size: 28px;
+		text-align: center;
+		line-height: 38px;
+	}
+}
+
+@media(max-width: 380px) {
+	.lockouts-head-content {
+		position: absolute;
+		left: 23%;
+		top: 45%;
+	}
+	.rekey-head-content {
+		position: absolute;
+		left: 8%;
+		top: 44%;
+	}
+	.rekey-heading {
+		font-size: 28px !important;
+		text-align: center;
+	}
+	.brokenkey-head-content {
+		position: absolute;
+		left: 1%;
+		top: 45%;
+	}
+	.brokenkey-heading {
+		font-size: 32px !important;
+		text-align: center;
+	}
+	.keydup-head-content {
+		position: absolute;
+		left: 10%;
+		top: 45%;
+	}
+	.keydup-heading {
+		font-size: 32px !important;
+		text-align: center;
+	}
+	.lockChange-head-content {
+		position: absolute;
+		left: 24%;
+		top: 45%;
+	}
+	.lockChange-heading {
+		font-size: 24px !important;
+		text-align: center;
+	}
+	.lockReplacement-head-content {
+		position: absolute;
+		left: 0%;
+		top: 42%;
+	}
+	.lockReplacement-heading {
+		font-size: 30px !important;
+		text-align: center;
+	}
+	.keyProgramming-head-content {
+		position: absolute;
+		left: 0%;
+		top: 43%;
+	}
+	.keyProgram-heading {
+		font-size: 32px !important;
+		text-align: center;
+	}
+	.laserCutting-head-content {
+		position: absolute;
+		left: 0%;
+		top: 43%;
+	}
+	.laser-heading {
+		font-size: 28px !important;
+		text-align: center;
+		line-height: 38px;
+	}
+}
+
+@media(max-width: 300px) {
+	.service-head {
+		margin-top: 60px;
+	}
+	.lockouts-head-content {
+		position: absolute;
+		left: 22%;
+		top: 45%;
+	}
+	.rekey-head-content {
+		position: absolute;
+		left: -2%;
+		top: 44%;
+	}
+	.rekey-heading {
+		font-size: 28px !important;
+		text-align: center;
+	}
+	.brokenkey-head-content {
+		position: absolute;
+		left: 0%;
+		top: 45%;
+	}
+	.brokenkey-heading {
+		font-size: 28px !important;
+		text-align: center;
+	}
+	.keydup-head-content {
+		position: absolute;
+		left: -1%;
+		top: 43%;
+	}
+	.keydup-heading {
+		font-size: 30px !important;
+		text-align: center;
+	}
+	.lockChange-head-content {
+		position: absolute;
+		left: 16%;
+		top: 45%;
+	}
+	.lockChange-heading {
+		font-size: 24px !important;
+		text-align: center;
+	}
+	.lockReplacement-head-content {
+		position: absolute;
+		left: 0%;
+		top: 42%;
+	}
+	.lockReplacement-heading {
+		font-size: 26px !important;
+		text-align: center;
+	}
+	.keyProgramming-head-content {
+		position: absolute;
+		left: 0%;
+		top: 43%;
+	}
+	.keyProgram-heading {
+		font-size: 26px !important;
+		text-align: center;
+	}
+	.laserCutting-head-content {
+		position: absolute;
+		left: 0%;
+		top: 36%;
+	}
+	.laser-heading {
+		font-size: 24px !important;
+		text-align: center;
+		line-height: 38px;
+	}
+}
+
+
+/* BLOG PAGE */
+.blog-head {
+	margin-top: 0px;
+	padding-top: 320px;
+	min-height: 82vh;
+	background-image: url("../Images/blog1.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative;
+	z-index: 2;
+}
+
+.blog-head:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(226, 184, 101, 0.5);
+}
+
+.blog-head-heading {
+	font-family: "Roboto Slab", serif;
+	text-shadow: 3px 3px #000 !important;
+	color: white !important;
+	font-weight: bold;
+	z-index: 10;
+	font-size: 48px;
+	margin-bottom: 80px;
+}
+
+.blog-call-div {
+	top: 400px;
+}
