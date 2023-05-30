@@ -1,0 +1,280 @@
+/* ABOUT SECTION Start */
+.about-head {
+	margin-top: 0px;
+	padding-top: 250px;
+	min-height: 100vh;
+	background-image: url("../about_images/about1.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: relative;
+}
+.about-head:before {
+	content: "";
+	position: absolute;
+	left: 0; right: 0;
+	top: 0; bottom: 0;
+	background: rgba(45,68,87,0.8);
+}
+.about-head-heading {
+	font-family: "Roboto Slab", serif;
+	text-shadow: 3px 3px #000 !important;
+	color: white !important;
+	z-index: 10;
+	font-size: 44px;
+	margin-bottom: 80px;
+}
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #4fdbda;
+}
+.circle:hover {
+	background-color: #292b2c;
+}
+.circle p {
+	font-size: 15px;
+}
+/* ABOUT SECTION End */
+
+
+/* ABOUT US CONTENT Start  */
+.about_column {
+	width: 90%;
+}
+#logo {
+	width: 80px;
+	height: 65px;
+}
+/* ABOUT US CONTENT End  */
+
+
+/* VISION MISSION Start */
+.hrStyle {
+	height: 2px;
+}
+.marginStyle {
+	margin-top: 50px;
+}
+.descColStyle {
+	margin: auto;
+}
+/* VISION MISSION End */
+
+
+/* WHAT WE OFFER Start */
+.about-section {
+	margin-top: 60px;
+	min-height: 80vh;
+	background-image: url("../about_images/about1.jpg");
+	background-repeat: no-repeat;
+	padding-bottom: 50px;
+	background-size: 100%;
+	position: relative;
+}
+.about-section:before {
+	content: "";
+	position: absolute;
+	left: 0; right: 0;
+	top: 0; bottom: 0;
+	background: rgba(45,68,87,0.8);
+}
+.about-section-head {
+	font-family: "Roboto Slab", serif;
+	text-shadow: 3px 3px #000 !important;
+	color: white !important;
+	z-index: 10;
+	font-size: 36px;
+	margin-bottom: 80px;
+}
+.diamond-container {
+  width:  90%;
+}
+.diamond {
+  width: 60px;
+  height: 60px;
+  margin-top: 5%;
+  padding: 5px;
+  text-align: center;
+  border: 2px solid #4fdbda;
+  border-radius: 0px;
+  transform: rotate(45deg);
+  line-height: 40px;
+  font-size:20px;
+  transition: all 500ms ease;
+}
+.diamond i {
+    transform: rotate(-45deg);
+}
+/* WHAT WE OFFER End */
+
+
+/* MESSAGE FROM THE FOUNDER Start */
+.underline3 {
+	width: 160px;
+	height: 2px;
+}
+.icon-circle i {
+	color: black !important;
+}
+#ceo-img {
+	width: 350px;
+	height: 370px;
+	border: 2px solid black;
+}
+.message-text {
+	color: grey;
+}
+.icon-circle {
+    width: 38px !important;
+    height: 35px !important;
+    border-radius: 50%;
+    border: 1px solid grey;
+    background-color: lightgrey;
+    color: black !important;
+}
+.icon-circle:hover {
+	background-color: #292b2c;
+	color: white !important;
+}
+.icon-circle i {
+	color: inherit !important;
+}
+/* MESSAGE FROM THE FOUNDER End */
+
+
+/* MEDIA QUERIES Start*/
+@media (max-width: 1373px) {
+	.about-section {
+		background-repeat: repeat-y;
+	}
+}
+
+@media (max-width: 991.2px) {
+	.circle {
+		margin-bottom: 40px;
+	}
+	.about-head {
+		margin-top: 60px;
+		padding-top: 100px;
+		min-height: 80vh;
+		background-image: url("../about_images/about2.png");
+	}
+	#vision {
+		margin-top: 40px;	
+	}
+}
+
+@media (max-width: 860px) {
+	.about-head {
+		min-height: 80vh;
+		background-image: url("../about_images/about5.png");
+	}
+}
+
+@media (max-width: 767.2px) {
+	.about-head {
+		min-height: 80vh;
+		background-image: url("../about_images/about6.png");
+	}
+	#mission {
+		margin-top: 40px;	
+	}
+}
+
+@media (min-width: 766.8px) {
+	.justify {
+		text-align: justify;
+	}
+}
+
+@media (max-width: 572.2px) {
+	.about-head {
+		min-height: 80vh;
+		background-image: url("../about_images/about7.png");
+	}
+	.circle {
+		width: 160px;
+		height: 160px;
+	}
+	.circle p {
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 575.8px) {
+	.about-head {
+		background-repeat: repeat-y;
+	}
+	.pic-col {
+		justify-content: center !important;
+	}
+	.message-col {
+		justify-content: center !important;
+		padding-right: 0 !important;
+		padding-top: 20px;
+	}
+	.message-col>div {
+		padding-left: 0px !important;
+		text-align: justify;
+	}
+}
+
+@media (max-width: 400px) {
+	#ceo-img {
+		width: 292px;
+		height: 308px;
+	}
+	.message-col>div {
+		padding-left: 27px !important;
+		padding-right: 27px;
+		text-align: justify;
+	}
+}
+
+@media (max-width: 359px) {
+	.about-head {
+		min-height: 80vh;
+		background-image: url("../about_images/about7.png");
+		margin-top: 20px;
+	}
+	.circle {
+		width: 140px;
+		height: 140px;
+	}
+	.circle p {
+		font-size: 11px;
+	}
+	.message-col {
+		margin-bottom: 40px;
+	}
+}
+
+@media (max-width: 319px) {
+	.about-head {
+		min-height: 80vh;
+		background-image: url("../about_images/about7.png");
+		margin-top: 20px;
+	}
+	.about-section-head {
+		font-size: 26px;
+	}
+	.circle {
+		width: 120px;
+		height: 120px;
+	}
+	.circle p {
+		font-size: 9px;
+	}
+}
+
+@media (max-width: 300px) {
+	#ceo-img {
+		width: 250px;
+		height: 264px;
+	}
+	.message-col {
+		margin-bottom: 80px;
+	}
+}
+/* MEDIA QUERIES End */
